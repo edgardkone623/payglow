@@ -1,0 +1,58 @@
+{
+    "authors": [
+        {
+            "email": "a.matthies@sms77.io",
+            "homepage": "https://www.sms77.io",
+            "name": "sms77 e.K.",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Sms77\\Api\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sms77\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "7.3"
+        }
+    },
+    "description": "Official API Client for requesting the Sms77.io SMS Gateway.",
+    "homepage": "https://github.com/sms77io/php-client",
+    "keywords": [
+        "2fa",
+        "sms",
+        "gateway",
+        "text2speech",
+        "hlr",
+        "cnam",
+        "mnp",
+        "tts"
+    ],
+    "license": "MIT",
+    "name": "sms77/api",
+    "require": {
+        "php": ">=7.3",
+        "ext-ctype": "*",
+        "ext-curl": "*",
+        "ext-mbstring": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9",
+        "ext-soap": "*",
+        "ext-simplexml": "*"
+    },
+    "support": {
+        "docs": "https://github.com/sms77io/php-client",
+        "email": "support@sms77.io",
+        "rss": "https://www.sms77.io/de/feed/",
+        "source": "https://github.com/sms77io/php-client"
+    },
+    "type": "library"
+}
